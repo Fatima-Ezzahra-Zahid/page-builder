@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="<?= WEBSITE_DESCRIPTION  ?>" />
 <meta name="keywords" content="<?= WEBSITE_KEYWORDS ?>" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
 <!--open Graph tags-->
@@ -15,6 +17,6 @@
 <!--CSS styles-->
 
 <link rel="stylesheet" href="assets/vendors/css//bootstrap.min.css" />
-<link rel="stylesheet" href="assets/vendors/css/master.css" />
 <link  rel="stylesheet" href="assets/vendors/css/navbar.css">
-<link rel="stylesheet" href="assets/styles/css/styles.css" />
+<link rel="stylesheet" href="assets/styles/css/master.css" />
+
