@@ -4,4 +4,3 @@ $('#sidebarCollapse').on('click', function () {
 });
 
 
-$('.timepicker').mdtimepicker(); 

@@ -8,7 +8,6 @@
 
 
 <body>
-
   <nav class="navbar navbar-dark bg-dark">
     <button type="button" id="sidebarCollapse" class="btn btn-outline-light default-light-menu "><i
         class="fas fa-bars"></i><span></span></button>
@@ -16,22 +15,14 @@
   </nav>
 
 
+
+
   <div id="sidebar">
     <div class="container" id="side">
       <div class="row">
-        <div class="col" draggable="true" ondrop="drop(event)" ondragover="allowDrop(event)" ondragstart="drag(event)" id="drag1">
-          <div class="elementor-element">
-            <div class="icon">
-              <i class="far fa-image fa-2x"></i>
-            </div>
-            <div class="elementor-element-title-wrapper">
-              <div class="title">Image</div>
-            </div>
-          </div>
 
-        </div>
         <div class="col">
-          <div class="elementor-element" draggable="true"  >
+          <div class="elementor-element" draggable="true">
             <div class="icon">
               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-fonts" fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg">
@@ -41,9 +32,24 @@
 
             </div>
             <div class="elementor-element-title-wrapper">
-              <div class="title">Texte</div>
+              <div class="title">Titrage</div>
             </div>
           </div>
+        </div>
+
+
+        <div class="col" ondragstart="javascript: dragStart(event);"
+			ondragover="javascript: return dragOver(event);"
+			ondrop="javascript: return drop(event);"   draggable="true" >
+          <div class="elementor-element">
+            <div class="icon">
+              <i class="far fa-image fa-2x"></i>
+            </div>
+            <div class="elementor-element-title-wrapper">
+              <div class="title">Image</div>
+            </div>
+          </div>
+
         </div>
         <div class="w-100"></div>
         <div class="col">
@@ -203,12 +209,14 @@
       </div>
     </div>
   </div>
-  </div>
 
-  <div class="container-2">
-    <div class="col-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <div class="col-1"></div>
-    <div class="col-2"></div>
+  <div class="cont" ondragstart="javascript: dragStart(event);"
+			ondragover="javascript: return dragOver(event);"
+			ondrop="javascript: return drop(event);" id="drag1">
+    <!-- <div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"> -->
+  </div>
+    <!-- <div class="col-1"></div> -->
+    <!-- <div class="col-2"></div> -->
   </div>
 
 

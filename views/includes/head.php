@@ -16,7 +16,7 @@
 <meta property="og:image" content="<?= WEBSITE_FACEBOOK_IMAGE ?>" />
 <!--CSS styles-->
 
-<link rel="stylesheet" href="assets/vendors/css//bootstrap.min.css" />
+<link rel="stylesheet" href="assets/vendors/css//bootstrap.css" />
 <link  rel="stylesheet" href="assets/vendors/css/navbar.css">
 <link rel="stylesheet" href="assets/styles/css/master.css" />
 
