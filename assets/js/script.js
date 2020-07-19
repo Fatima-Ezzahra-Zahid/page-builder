@@ -20,6 +20,8 @@
 
 // }
 
+
+
 var leclone;
  
 function dragStart(event)
@@ -38,14 +40,13 @@ function dragOver(event)
 }
 function drop(event)
 {
-  // leclone=  document.getElementById('drag1').innerHTML = '<div class="card border-primary mb-3" style="max-width: 18rem;">'+
-  // '  <div class="card-header">Header</div>'+
-  // '  <div class="card-body text-primary">'+
-  // '  <h5 class="card-title">Primary card title</h5>'+
-  // '    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>'+
-  // '</div>'+'</div>'	
   event.currentTarget.appendChild(leclone);
-
+  document.getElementById('drag1').innerHTML = '<div class="card border-primary mb-3" style="max-width: 18rem;">'+
+  '  <div class="card-header">Header</div>'+
+  '  <div class="card-body text-primary">'+
+  '  <h5 class="card-title">Primary card title</h5>'+
+  '    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>'+
+  '</div>'+'</div>'	
 	event.stopPropagation();
 	return false;
 }

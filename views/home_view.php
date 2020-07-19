@@ -19,7 +19,7 @@
 
   <div id="sidebar">
     <div class="container" id="side">
-      <div class="row">
+      <div class="row" id="launchPad">
 
         <div class="col">
           <div class="elementor-element" draggable="true">
